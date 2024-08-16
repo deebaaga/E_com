@@ -1,0 +1,67 @@
+body {
+  background-color: #9ecdff; /* Same background color as the main page */
+  color: #1e293b; /* Same text color as the main page */
+  font-family: "Norwester", sans-serif; /* Same font family */
+  border: 5px solid #0d1b2a; /* Same border style as the main page */
+  margin: 0; /* Reset default margin to ensure the border touches the edge */
+  padding: 30px; /* Padding around the content */
+  text-align: center; /* Center-align text and content */
+}
+
+header {
+  background-color: #0d1b2a; /* Same header background color */
+  color: #e0e1dd; /* Same text color in header */
+  text-align: center; /* Center-align header content */
+  width: 100%; /* Full width of the viewport */
+  max-height: 80px; /* Same max height as the main page */
+  position: fixed; /* Fixed position to stick at the top */
+  top: 0; /* Stick to the top of the page */
+  left: 0; /* Stick to the left edge of the page */
+  z-index: 10; /* Ensure header is on top of other content */
+}
+
+header h1 {
+  margin: 0; /* Remove default margin */
+  padding: 15px; /* Padding inside header */
+}
+
+button {
+  background-color: #0d1b2a; /* Button background color */
+  color: #e0e1dd; /* Button text color */
+  border: solid 1px black; /* Remove default border */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: "Norwester", sans-serif; /* Same font as the main page */
+  position: relative;
+  top: 400px;
+  margin-inline: 50px;
+}
+.checkout-button {
+  background-color: #0d1b2a; /* Button background color */
+  color: #e0e1dd; /* Button text color */
+  border: solid 1px black; /* Remove default border */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: "Norwester", sans-serif; /* Same font as the main page */
+  position: relative;
+}
+
+button:hover {
+  background-color: #589af0; /* Change background color on hover */
+  color: #0d1b2a; /* Change text color on hover */
+  transition-duration: 0.29s; /* Smooth transition */
+  transform: translateX(1px); /* Slight movement on hover */
+}
+
+.checkout-button:hover {
+  background-color: #589af0; /* Change background color on hover */
+  color: #0d1b2a; /* Change text color on hover */
+  transition-duration: 0.29s; /* Smooth transition */
+  transform: translateX(1px); /* Slight movement on hover */
+}
+#total-price {
+  position: relative;
+  top: 400px;
+}

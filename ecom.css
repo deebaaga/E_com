@@ -1,0 +1,94 @@
+body {
+  background-color: #9ecdff;
+  color: #1e293b;
+  font-family: "Norwester", sans-serif;
+  border: 5px solid #0d1b2a; /* Sets a 5px solid border with a deep blue color */
+  margin: 15px; /* Adds a margin to ensure the border doesn't touch the edge of the viewport */
+  padding: 30px;
+  text-align: center;
+}
+
+header {
+  background-color: #0d1b2a;
+  text-align: center;
+  width: 100%;
+  color: #e0e1dd;
+  position: fixed;
+  max-height: 80px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#cartimg {
+  position: relative;
+  display: block;
+  left: 1410px;
+  bottom: 50px;
+}
+
+#cart {
+  text-align: right;
+  position: relative;
+  bottom: 75px;
+  right: 50px;
+}
+
+#cart-count {
+  color: #1289e9;
+  font-weight: 900;
+}
+
+/* Basic reset for margins and padding */
+.product-card p,
+button {
+  font-family: "Norwester", sans-serif;
+}
+
+/* Container for the products */
+.product-container {
+  display: flex; /* Use Flexbox to layout children in a row */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  gap: 16px; /* Space between items */
+  padding: 16px; /* Padding around the container */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Styling for each product card */
+.product-card {
+  border: 2px solid #0d1b2a; /* Border color and thickness */
+  border-radius: 8px; /* Rounded corners for the border */
+  padding: 16px; /* Padding inside the card */
+  width: 200px; /* Fixed width for each product card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for visual depth */
+  text-align: center; /* Center-align text and content */
+  background-color: #84bbfd; /* Background color for the product card */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Ensure images fit within the card */
+.product-card img {
+  width: 100%; /* Make image fit the card width */
+  height: auto; /* Maintain aspect ratio */
+  border-bottom: 2px solid #0d1b2a; /* Border below the image */
+  margin-bottom: 8px; /* Space between image and text */
+}
+
+/* Styling for the buttons */
+.product-card button {
+  background-color: #0d1b2a; /* Button background color */
+  color: #e0e1dd; /* Button text color */
+  border: solid 1px black; /* Remove default border */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.product-card button:hover {
+  background-color: #589af0;
+  color: #0d1b2a;
+  transition-duration: 0.29s;
+  transform: translateX(1px);
+  cursor: pointer;
+  /* Change background color on hover */
+}
